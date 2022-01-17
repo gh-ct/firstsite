@@ -1,0 +1,31 @@
+.contact{
+    background-color: #767676;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea{
+    width: 20em;
+    
+    
+}
+
+.contact .submit_btn{
+    background-color: white;
+    border: 1px solid #767676;
+}
+
+
+.contact .submit_btn:hover{
+    background-color: rgb(43, 241, 255);
+}
+
+@media screen and (max-width:300px) {
+    .contact input, .contact textarea{
+        width: 100%;
+    }
+}
